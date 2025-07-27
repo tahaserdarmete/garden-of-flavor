@@ -1,7 +1,7 @@
 import getMenu from "./api.js";
 import {
   renderDetailPage,
-  renderLoader,
+  // renderLoader,
   renderMenuCard,
   renderNotFound,
   uiElements,
@@ -9,7 +9,7 @@ import {
 
 document.addEventListener("DOMContentLoaded", async () => {
   // Loader'ı render et
-  renderLoader();
+  // renderLoader();
   // Api isteği at
   const menuData = await getMenu();
 
