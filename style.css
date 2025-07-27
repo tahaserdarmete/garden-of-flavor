@@ -84,3 +84,11 @@ body {
   object-fit: cover;
   width: 100%;
 }
+
+/* Detail Page */
+
+.detail-img {
+  min-height: 320px !important;
+  object-fit: cover;
+  max-height: 420px !important;
+}
