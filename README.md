@@ -1,1 +1,1 @@
-# garden-of-flavor
+# Garden Of Flavor
