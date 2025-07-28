@@ -18,5 +18,7 @@ We are passionate about bringing you the purest flavors from nature, crafted wit
 
 # 🌐 Live Demo
 
-🎥 ScreenShot
+
+
+# 🎥 ScreenShot
 <img src="garden-of-flavor.gif"/>
