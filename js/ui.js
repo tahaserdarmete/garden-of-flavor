@@ -114,20 +114,20 @@ const renderNotFound = () => {
 
 // Loader render edecek fonksiyon
 
-// const renderLoader = () => {
-//   uiElements.menuList.innerHTML = `
-//   <div class="d-flex justify-content-center align-items-center w-100 py-5">
-//   <div class="spinner-border text-success" role="status">
-//   <span class="visually-hidden">Loading...</span>
-//   </div>
-//   </div>
-//   `;
-// };
+const renderLoader = () => {
+  uiElements.menuList.innerHTML = `
+  <div class="d-flex justify-content-center align-items-center w-100 py-5">
+  <div class="spinner-border text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+  </div>
+  </div>
+  `;
+};
 
 export {
   uiElements,
   renderMenuCard,
   renderDetailPage,
   renderNotFound,
-  // renderLoader,
+  renderLoader,
 };
