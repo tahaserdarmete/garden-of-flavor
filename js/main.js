@@ -16,12 +16,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Loader'ı render et
     renderLoader();
 
-    // setTimeout(() => {
-    //   // menu elemanlarını dinamik şekilde render et
-
-    // }, 2000);
-
-    renderMenuCard(menuData);
+    setTimeout(() => {
+      // menu elemanlarını dinamik şekilde render et
+      renderMenuCard(menuData);
+    }, 2000);
 
     // uiElements.categoryButtons bir nodeList olduğundan buna addEventListener eklyemeyiz. Bunun için nodeList içerisindeki her bir elemanı teker teker erişip addEventListener ekleyeceğiz.
     uiElements.categoryButtons.forEach((button) => {
