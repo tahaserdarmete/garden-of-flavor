@@ -3,7 +3,7 @@
 const getMenu = async () => {
   try {
     // API' ya istek at
-    const response = await fetch("../db.json");
+    const response = await fetch("/db.json");
 
     // API' dan gelen veriyi JSON'dan JS'e çevir
     const data = await response.json();
